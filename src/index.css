@@ -1,0 +1,56 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150vh;
+  background-color: #000000;
+  background-image: url("https://cdn.wallpapersafari.com/77/80/lBpfjq.jpg");
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  color: rgb(252, 230, 188);
+  letter-spacing: 8px;
+  font-weight: 700;
+}
+button {
+  font-size: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #6d665e;
+  color: #edc8b5;
+  border: none;
+  border-radius: 4px;
+  font-size: 40px;
+  border-radius: 10px;
+  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  box-shadow: 10px 15px 20px black, 10px -15px 20px black;
+}
+
+button:hover {
+  background-color: #5e4c09;
+}
+
+img {
+  width: 400px;
+  height: 550px;
+  border-radius: 10%;
+  padding: 3px;
+  box-shadow: 10px 15px 20px black, 10px -15px 20px black;
+}
+
+p {
+  margin: 40px 0;
+  font-size: 25px;
+  color: rgb(249, 207, 207);
+}
